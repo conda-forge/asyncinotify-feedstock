@@ -1,5 +1,5 @@
 {% set name = "asyncinotify" %}
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 867cc056d88fc07aa8b3d1dc5b9c3c911cdd6130a4df5f67beb1fdecfd37b164
+  sha256: a14baf680a3d3e1cf54e082ab56f56c475d59d3644cfc25c00c460e56d9bbdf7
 
 build:
-  number: 2
-  skip: True  # [not linux or py<36]
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  skip: true  # [not linux or py<36]
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'An async python inotify package'
+  summary: An async python inotify package
   description: |
     An async python inotify package. Kept as simple and easy-to-understand
     as possible, while still being flexible and powerful. This is built on
