@@ -1,11 +1,11 @@
-About asyncinotify
-==================
+About asyncinotify-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asyncinotify-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/Taywee/asyncinotify
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asyncinotify-feedstock/blob/main/LICENSE.txt)
 
 Summary: An async python inotify package
 
