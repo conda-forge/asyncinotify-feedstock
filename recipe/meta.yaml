@@ -1,5 +1,5 @@
 {% set name = "asyncinotify" %}
-{% set version = "4.0.2" %}
+{% set version = "4.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bcac19425b1b418bbbc4d31193ea3c39e24343cd7ddff2074ae7b599f1a04829
+  sha256: 55c29d26bd935279b4bfe77f00a87f19dd5d622ccb98703d04ac9845c7ecb451
 
 build:
-  number: 1
+  number: 0
   skip: true  # [not linux or py<36]
   script: {{ PYTHON }} -m pip install . -vv
 
