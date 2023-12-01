@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asyncinotify-fe
 
 Home: https://gitlab.com/Taywee/asyncinotify
 
-Package license: MIT
+Package license: MPL-2.0
 
 Summary: An async python inotify package
 
