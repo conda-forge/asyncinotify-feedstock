@@ -28,8 +28,8 @@ test:
 
 about:
   home: https://gitlab.com/Taywee/asyncinotify
-  license: MIT
-  license_family: MIT
+  license: MPL-2.0
+  license_family: MOZILLA
   license_file: LICENSE
   summary: An async python inotify package
   description: |
