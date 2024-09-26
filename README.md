@@ -3,13 +3,13 @@ About asyncinotify-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asyncinotify-feedstock/blob/main/LICENSE.txt)
 
-Home: https://gitlab.com/Taywee/asyncinotify
+Home: https://github.com/ProCern/asyncinotify
 
 Package license: MPL-2.0
 
 Summary: An async python inotify package
 
-Development: https://gitlab.com/Taywee/asyncinotify
+Development: https://github.com/ProCern/asyncinotify
 
 Documentation: https://asyncinotify.readthedocs.io/
 
