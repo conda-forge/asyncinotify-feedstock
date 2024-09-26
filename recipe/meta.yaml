@@ -27,7 +27,7 @@ test:
     - asyncinotify
 
 about:
-  home: https://gitlab.com/Taywee/asyncinotify
+  home: https://github.com/ProCern/asyncinotify
   license: MPL-2.0
   license_family: MOZILLA
   license_file: LICENSE
@@ -38,7 +38,7 @@ about:
     no external dependencies, and works through ctypes in a very obvious
     fashion.
   doc_url: https://asyncinotify.readthedocs.io/
-  dev_url: https://gitlab.com/Taywee/asyncinotify
+  dev_url: https://github.com/ProCern/asyncinotify
 
 extra:
   recipe-maintainers:
